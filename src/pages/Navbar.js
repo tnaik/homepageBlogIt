@@ -11,6 +11,9 @@ export default class Navbar extends Component {
             <h1 class="text-xs font-semibold self-center">Home</h1>
             <h1 class="text-xs font-semibold self-center">Feed</h1>
           </div>
+          <div className='flex flex-row items-end mx-auto pt-2'>
+            <button href="/" class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2 font-semibold">Login</button>
+          </div>
         </nav>
     </header>
     )

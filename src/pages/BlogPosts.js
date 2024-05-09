@@ -5,8 +5,8 @@ export default class BlogPosts extends Component {
       return ( 
         <div className="flex-row">
             <div className='pt-4 px-2'>
-            <span class="inline-block bg-cyan-200 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2">New Blog Post +</span>
-            <span class="inline-block bg-violet-200 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2">Upload Media +</span>
+            <button href="/" class="inline-block bg-cyan-200 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2">New Blog Post +</button>
+            <button href="/" class="inline-block bg-violet-200 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2">Upload Media +</button>
             </div>
 
         <div className="flex">

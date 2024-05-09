@@ -31,13 +31,13 @@ export default class Home extends Component {
             <a href="#">
                 <h5 class="mb-2 text-xs text-gray-900 dark:text-black">Likes:</h5>
             </a>
-            <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-xs text-gray-700 mr-2">Add More +</span>
+            <button href="/" class="inline-block bg-gray-100 rounded-full px-2 py-1 text-xs text-gray-700 mr-2">Add More +</button>
             <p class="my-2 text-xs text-gray-800 dark:text-gray-400">Looks like you haven't added one, check some out!</p>
 
             <a href="#">
                 <h5 class="my-2 text-xs text-gray-900 dark:text-black">Communities:</h5>
             </a>
-            <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2">Join More +</span>
+            <button href="/" class="inline-block bg-gray-100 rounded-full px-2 py-1 text-xs text-gray-700 mr-2 mb-2">Join More +</button>
             <p class="text-xs text-gray-800 dark:text-gray-400">Looks like you haven't added one, check some out!</p>
           </div>
         </div>
